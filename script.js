@@ -10,7 +10,8 @@ const weatherIcon = document.getElementById("weatherIcon");
 
 async function getData(cityName) {
   const weatherData = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=e5c5451a7b0945f2b4250238242002&q=${cityName}&aqi=yes`
+    `URL+yourApi Kay ${cityName}`
+    // http://api.weatherapi.com/v1/current.json?key=Your Api Key=${cityName}&aqi=yes
   );
   return await weatherData.json();
 }
