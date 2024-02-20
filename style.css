@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7c9f2;
+}
+.main {
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #9195f6;
+  box-shadow: inset 0 -3em 3em rgba(7, 0, 200, 0.3),
+    0.3em 0.3em 1em rgba(23, 23, 23, 0.6);
+}
+h1 {
+  text-align: center;
+}
+.inputfield {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  gap: 5px;
+  align-items: center;
+}
+.inputfield input {
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  border-style: none;
+}
+.inputfield button {
+  width: 25%;
+  height: 90%;
+  padding: 8px;
+  background-color: rgba(98, 7, 245, 0.866);
+  border-radius: 50px;
+  border-style: none;
+  color: #fff;
+  margin-left: -97px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(56, 7, 135, 0.866);
+  transform: translateY(3%);
+}
+.weatherData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px;
+
+  margin-bottom: 10px;
+  gap: 5px;
+}
+.content {
+  display: flex;
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+img {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  height: 120px;
+  width: 120px;
+}
